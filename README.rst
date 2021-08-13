@@ -1,7 +1,8 @@
 Behave to Cucumber (Zephyr) formatter
 ============================
 
-This project converts the behave json reports to a cucumber(like) json file, that can be used with Zephyr Scale. The original work can be founf here:  Original application: https://github.com/behalf-oss/behave2cucumber
+This project converts the behave json reports to a cucumber(like) json file, 
+that can be used with Zephyr Scale. The original work can be found here: https://github.com/behalf-oss/behave2cucumber
 
 This script was developed during work on automation tools for Behalf inc. automation team.
 The script was developed and tested on Python 2.7, you're welcome to use this script and format it to other python versions.
