@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+behave2cucumberZephyr.egg-info
+dist
+venv
