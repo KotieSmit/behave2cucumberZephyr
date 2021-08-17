@@ -6,14 +6,14 @@ here = path.abspath(path.dirname(__file__))
 setup(
     name='behave2cucumberZephyr',
 
-    version='1.0.5',
+    version='0.0.1',
 
     description='Behave to Cucumber json converter, modified to used with Zephyr',
     long_description='This project converts the behave json reports to a cucumber(like) json file, '
                      'that can be used with Zephyr Scale. The original work can be found here: '
                      'https://github.com/behalf-oss/behave2cucumber',
 
-    url='https://github.com/behalf-oss/behave2cucumberZephyr',
+    url='https://github.com/KotieSmit/behave2cucumberZephyr',
 
     author='(original) Andrey Goldgamer, Zvika Messing, (adapted for Zephyr) Kotie Smit',
     author_email='',
@@ -31,7 +31,7 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
 
-    keywords='behave2cucumberZephyr setuptools development cucumber behave automation json',
+    keywords='behave2cucumberZephyr setuptools development cucumber behave automation json Zephyr',
 
     packages=find_packages(),
 
@@ -41,6 +41,8 @@ setup(
 
     data_files=[],
 
+    py_modules=['__main__', '__init__'],
+    
     entry_points={
         'console_scripts': [
             'behave2cucumberZephyr = behave2cucumberZephyr.behave2cucumberZephyr.__main__:main'

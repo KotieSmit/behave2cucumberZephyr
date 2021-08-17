@@ -3,3 +3,4 @@
 behave2cucumberZephyr.egg-info
 dist
 venv
+.DS_Store
